@@ -1,9 +1,9 @@
-import { images, stables } from "../../../../constants";
+import { images, stables } from "../../../../Constants";
 import { deletePost, getAllPosts } from "../../../../services/index/posts";
-import Pagination from "../../../../components/Pagination";
+import Pagination from "../../../../Components/Pagination";
 import { toast } from "react-hot-toast";
 import { Link } from "react-router-dom";
-import { useDataTable } from "../../../../hooks/useDataTable";
+import { useDataTable } from "../../../../Hooks/useDataTable";
 import DataTable from "../../components/DataTable";
 
 const ManagePosts = () => {

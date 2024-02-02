@@ -1,19 +1,18 @@
 import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
-import BreadCrumbs from "../../components/BreadCrumbs";
-import CommentsContainer from "../../components/comments/CommentsContainer";
-import MainLayout from "../../components/MainLayout";
-import SocialShareButtons from "../../components/SocialShareButtons";
-import { images, stables } from "../../constants";
+import BreadCrumbs from "../../Components/BreadCrumbs";
+import CommentsContainer from "../../Components/comments/CommentsContainer";
+import SocialShareButtons from "../../Components/SocialShareButtons";
+import { images, stables } from "../../Constants";
 import SuggestedPosts from "./container/SuggestedPosts";
 import { useQuery } from "@tanstack/react-query";
 import { getAllPosts, getSinglePost } from "../../services/index/posts";
 import ArticleDetailSkeleton from "./components/ArticleDetailSkeleton";
-import ErrorMessage from "../../components/ErrorMessage";
+import ErrorMessage from "../../Components/ErrorMessage";
 import { useSelector } from "react-redux";
 import parseJsonToHtml from "../../utils/parseJsonToHtml";
-import Editor from "../../components/editor/Editor";
+import Editor from "../../Components/editor/Editor";
 
 const ArticleDetailPage = () => {
   const { slug } = useParams();
@@ -40,7 +39,7 @@ const ArticleDetailPage = () => {
   });
 
   return (
-    <MainLayout>
+    <>
       {isLoading ? (
         <ArticleDetailSkeleton />
       ) : isError ? (
@@ -102,7 +101,7 @@ const ArticleDetailPage = () => {
           </div>
         </section>
       )}
-    </MainLayout>
+    </>
   );
 };
 

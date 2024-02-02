@@ -1,4 +1,4 @@
-import Pagination from "../../../components/Pagination";
+import Pagination from "../../../Components/Pagination";
 
 const DataTable = ({
   pageTitle,

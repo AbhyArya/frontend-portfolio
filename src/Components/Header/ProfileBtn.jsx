@@ -35,7 +35,7 @@ const ProfileBtn = () => {
                                 } w-max pt-4 transition-all duration-500 lg:absolute lg:bottom-0 lg:right-0 lg:hidden lg:translate-y-full lg:transform lg:group-hover:block`}
                             >
                                 <ul className="flex flex-col overflow-hidden rounded-lg bg-dark-soft text-center shadow-lg lg:bg-transparent">
-                                    {userState?.userInfo?.admin && (
+                                    {/* {userState?.userInfo?.admin && ( */}
                                         <button
                                             onClick={() =>
                                                 navigate("/blog/dashboard")
@@ -45,7 +45,7 @@ const ProfileBtn = () => {
                                         >
                                             Dashboard
                                         </button>
-                                    )}
+                                     {/* )} */}
 
                                     <button
                                         onClick={() =>

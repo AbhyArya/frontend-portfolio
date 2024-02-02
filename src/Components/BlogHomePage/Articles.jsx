@@ -1,12 +1,12 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 
-import ArticleCard from "../../Components/Blogs/ArticleCard";
+import ArticleCard from "../ArticleCard";
 import { useQuery } from "@tanstack/react-query";
 import { getAllPosts } from "../../services/index/posts";
 import { toast } from "react-hot-toast";
-import ArticleCardSkeleton from "../../Components/Blogs/ArticleCardSkeleton";
-import ErrorMessage from "../../Components/Blogs/ErrorMessage";
+import ArticleCardSkeleton from "../ArticleCardSkeleton";
+import ErrorMessage from "../ErrorMessage";
 
 const Articles = () => {
   const { data, isLoading, isError } = useQuery({

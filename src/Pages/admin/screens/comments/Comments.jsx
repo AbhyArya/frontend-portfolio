@@ -1,14 +1,14 @@
 import React from "react";
 import { useMutation } from "@tanstack/react-query";
 import { toast } from "react-hot-toast";
-import { useDataTable } from "../../../../hooks/useDataTable";
+import { useDataTable } from "../../../../Hooks/useDataTable";
 import {
   deleteComment,
   getAllComments,
   updateComment,
 } from "../../../../services/index/comments";
 import DataTable from "../../components/DataTable";
-import { images, stables } from "../../../../constants";
+import { images, stables } from "../../../../Constants";
 import { Link } from "react-router-dom";
 
 const Comments = () => {

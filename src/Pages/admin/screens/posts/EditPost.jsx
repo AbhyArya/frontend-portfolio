@@ -4,12 +4,12 @@ import CreatableSelect from "react-select/creatable";
 import { getSinglePost, updatePost } from "../../../../services/index/posts";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import ArticleDetailSkeleton from "../../../articleDetail/components/ArticleDetailSkeleton";
-import ErrorMessage from "../../../../components/ErrorMessage";
-import { stables } from "../../../../constants";
+import ErrorMessage from "../../../../Components/ErrorMessage";
+import { stables } from "../../../../Constants";
 import { HiOutlineCamera } from "react-icons/hi";
 import { toast } from "react-hot-toast";
 import { useSelector } from "react-redux";
-import Editor from "../../../../components/editor/Editor";
+import Editor from "../../../../Components/editor/Editor";
 import MultiSelectTagDropdown from "../../components/select-dropdown/MultiSelectTagDropdown";
 import { getAllCategories } from "../../../../services/index/postCategories";
 import {

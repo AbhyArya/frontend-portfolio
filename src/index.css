@@ -9,15 +9,14 @@
 
 @layer components {
     .editor-btn {
-      @apply flex justify-center items-center text-slate-700 rounded-lg w-8 aspect-square;
+        @apply flex justify-center items-center text-slate-700 rounded-lg w-8 aspect-square;
     }
-  
-    .active-editor-btn {
-      @apply text-slate-800 bg-slate-200;
-    }
-  }
 
-  
+    .active-editor-btn {
+        @apply text-slate-800 bg-slate-200;
+    }
+}
+
 :root {
     --font: "Wotfard", "Wotfard-fallback", sans-serif;
     --color-active: hsl(255deg, 85%, 30%);
@@ -60,8 +59,10 @@
     --color-homepage-bg: hsl(204deg, 67%, 85%);
     --syntax-bg: hsl(225deg, 25%, 97%);
     --syntax-highlight: hsl(225deg, 25%, 93%);
-    --color-contact-background:hsl(0, 11%, 93%);
+    --color-contact-background: hsl(0, 11%, 93%);
     --syntax-txt: #2a2a2a;
+    --skill-bg-color: rgb(203 213 225);
+    --resume-small-container: transparent;
     --syntax-comment: #467790;
     --syntax-prop: #da0079;
     --syntax-bool: #bf00b8;
@@ -131,8 +132,10 @@ body.dark-mode {
     --color-homepage-light: hsl(210deg, 30%, 20%);
     --color-homepage-dark: hsl(210deg, 30%, 8%);
     --color-homepage-bg: hsl(210deg, 30%, 8%);
-    --color-contact-background:hsl(211, 32%, 13%);
+    --color-contact-background: hsl(211, 32%, 13%);
     --syntax-bg: hsl(210deg, 30%, 12%);
+    --skill-bg-color: black;
+    --resume-small-container: rgb(30 41 59);
     --syntax-highlight: hsl(210deg, 30%, 18%);
     --syntax-txt: #fff;
     --syntax-comment: #6c8998;
@@ -193,7 +196,7 @@ h6 {
     overflow-wrap: break-word;
 }
 
-.changeBgColor:hover{
+.changeBgColor:hover {
     animation: changeColor 10s linear 0s infinite;
 }
 @keyframes changeColor {
@@ -205,16 +208,23 @@ h6 {
     }
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    margin: 0; 
+    margin: 0;
 }
 
-
-.inputColor{
+.inputColor {
     background: var(--color-contact-background);
     color: var(--color-text);
+}
+
+.skillBgColor {
+    background: var(--skill-bg-color);
+}
+
+.resumeSmallContainer {
+    background-color: var(--resume-small-container);
 }

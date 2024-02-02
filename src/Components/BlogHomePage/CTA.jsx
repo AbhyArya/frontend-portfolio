@@ -1,6 +1,6 @@
 import React from "react";
 
-import { images } from "../../Constant";
+import { images } from "../../Constants";
 
 const CTA = () => {
   return (
@@ -42,7 +42,7 @@ const CTA = () => {
                 Get a response tomorrow
               </span>{" "}
               if you submit by 9pm today. If we received after 9pm will get a
-              reponse the following day.
+              response the following day.
             </p>
           </div>
           <div className="col-span-12 hidden mb-[70px] md:block md:order-first lg:col-span-6 lg:order-last">
@@ -60,7 +60,7 @@ const CTA = () => {
                     Future of Work
                   </h2>
                   <p className="text-dark-light mt-3 text-sm md:text-lg">
-                    Majority of peole will work in jobs that don’t exist today.
+                    Majority of people will work in jobs that don’t exist today.
                   </p>
                 </div>
               </div>

@@ -1,8 +1,8 @@
 import { FaCcApplePay } from "react-icons/fa";
-import { MdOutlineArrowBackIos } from "react-icons/md";
+import { MdOutlineArrowBackIos, MdOutlineEmail } from "react-icons/md";
 import { TbBrandCpp } from "react-icons/tb";
 
-export const projects = [
+ export const  projects = [
     {
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2zPJA81k7VuodnK3w4LaZqMJGjVuvedNKU365l2xQQQ&s",
         name: "Project Name",
@@ -136,7 +136,7 @@ export const projects = [
 ];
 
 
-export const skills = [
+ export const  skills = [
     {
         section: "Languages",
         subSkills: [
@@ -296,7 +296,7 @@ export const skills = [
     },
 ];
 
-export const contacts = [
+ export const  contacts = [
     {
         icon: FaCcApplePay,
         name: "Email",
@@ -339,4 +339,285 @@ export const contacts = [
         userName: "careers.abhishekkumar.com",
         href: "http://www.careers.abhishekkumar.com",
     },
+];
+
+
+
+export const  socialConnections = [
+    {
+        href: "https://www.facebook.com",
+        icon: <MdOutlineEmail />,
+        value: "careers.abhishekkumar.@gmail.com",
+    },
+    {
+        href: "https://www.facebook.com",
+        icon: <MdOutlineEmail />,
+        value: "9162388695",
+    },
+    {
+        href: "https://www.facebook.com",
+        icon: <MdOutlineEmail />,
+        value: "linkedin.com/in/abhyarya",
+    },
+    {
+        href: "https://www.facebook.com",
+        icon: <MdOutlineEmail className="transition-none" />,
+        value: "github.com/AbhyArya",
+    },
+];
+
+export const  resumeSkills = [
+    {
+        section: "Development",
+        skills: [
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+        ],
+    },
+    {
+        section: "Development",
+        skills: [
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+        ],
+    },
+    {
+        section: "Development",
+        skills: [
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+        ],
+    },
+    {
+        section: "Development",
+        skills: [
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+        ],
+    },
+    {
+        section: "Development",
+        skills: [
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+        ],
+    },
+    {
+        section: "Development",
+        skills: [
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+            "ReactJs",
+            "Vue",
+        ],
+    },
+];
+
+export const  educationDetails = [
+    {
+        degree: "Diploma in Mechanical Engineering",
+        university: "BTE,Delhi",
+        session: "2017-2020",
+        percentage: "79%",
+    },
+    {
+        degree: "Diploma in Mechanical Engineering",
+        university: "BTE,Delhi",
+        session: "2017-2020",
+        percentage: "79%",
+    },
+    {
+        degree: "Diploma in Mechanical Engineering",
+        university: "BTE,Delhi",
+        session: "2017-2020",
+        percentage: "79%",
+    },
+    {
+        degree: "Diploma in Mechanical Engineering",
+        university: "BTE,Delhi",
+        session: "2017-2020",
+        percentage: "79%",
+    },
+    {
+        degree: "Diploma in Mechanical Engineering",
+        university: "BTE,Delhi",
+        session: "2017-2020",
+        percentage: "79%",
+    },
+    {
+        degree: "Diploma in Mechanical Engineering",
+        university: "BTE,Delhi",
+        session: "2017-2020",
+        percentage: "79%",
+    },
+    {
+        degree: "Diploma in Mechanical Engineering",
+        university: "BTE,Delhi",
+        session: "2017-2020",
+        percentage: "79%",
+    },
+];
+
+export const  experienceDetails = [
+    {
+        designation: "SDE",
+        organization: "Aaensa Tech.",
+        session: "05/23-present",
+        roles: [
+            "Implemented auto sliding using pure-react carousel",
+            "improve the design of front-end and optimized existing animations and add new animations thus resulting in increasing user experience and user engagement by 20%",
+        ],
+    },
+    {
+        designation: "SDE",
+        organization: "Aaensa Tech.",
+        session: "05/23-present",
+        roles: [
+            "Implemented auto sliding using pure-react carousel",
+            "improve the design of front-end and optimized existing animations and add new animations thus resulting in increasing user experience and user engagement by 20%",
+        ],
+    },
+    {
+        designation: "SDE",
+        organization: "Aaensa Tech.",
+        session: "05/23-present",
+        roles: [
+            "Implemented auto sliding using pure-react carousel",
+            "improve the design of front-end and optimized existing animations and add new animations thus resulting in increasing user experience and user engagement by 20%",
+        ],
+    },
+    {
+        designation: "SDE",
+        organization: "Aaensa Tech.",
+        session: "05/23-present",
+        roles: [
+            "Implemented auto sliding using pure-react carousel",
+            "improve the design of front-end and optimized existing animations and add new animations thus resulting in increasing user experience and user engagement by 20%",
+        ],
+    },
+];
+
+export const  projectDetails = [
+    {
+        name: "Shagain Idea",
+        session: "05/23-present",
+        achievements: [
+            "Implemented auto sliding using pure-react carousel",
+            "improve the design of front-end and optimized existing animations and add new animations thus resulting in increasing user experience and user engagement by 20%",
+        ],
+    },
+    {
+        name: "Shagain Idea",
+        session: "05/23-present",
+        achievements: [
+            "Implemented auto sliding using pure-react carousel",
+            "improve the design of front-end and optimized existing animations and add new animations thus resulting in increasing user experience and user engagement by 20%",
+        ],
+    },
+    {
+        name: "Shagain Idea",
+        session: "05/23-present",
+        achievements: [
+            "Implemented auto sliding using pure-react carousel",
+            "improve the design of front-end and optimized existing animations and add new animations thus resulting in increasing user experience and user engagement by 20%",
+        ],
+    },
+];
+
+
+export const interests = [
+    "Photography",
+    "Photography",
+    "Photography",
+    "Photography",
+    "Photography",
+]
+
+
+export const  achievements= [
+    {
+        name: "SDE",
+        description: "Aaensa Tech.",
+        
+    },
+    {
+        name: "SDE",
+        description: "Aaensa Tech.",
+        
+    },
+    {
+        name: "SDE",
+        description: "Aaensa Tech.",
+        
+    },
+    {
+        name: "SDE",
+        description: "Aaensa Tech.",
+        
+    },
+   
 ];

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
-import links from "../../Constant/Links.js";
+import links from "../../Constants/Links.js";
 import { ReactComponent as DarkModeSvg } from "../../assets/darkMode.svg";
 import { ReactComponent as LightModeSvg } from "../../assets/lightMode.svg";
 import useActive from "../../Hooks/useActive.js";

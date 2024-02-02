@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { useWindowSize } from "@uidotdev/usehooks";
 
-import { images } from "../../../../constants";
+import { images } from "../../../../Constants";
 import { useEffect, useState } from "react";
 import { AiFillDashboard, AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaComments } from "react-icons/fa";

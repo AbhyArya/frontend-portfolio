@@ -19,10 +19,10 @@ const AdminLayout = () => {
     },
     queryKey: ["profile"],
     onSuccess: (data) => {
-      if (!data?.admin) {
-        navigate("/");
-        toast.error("Your are not allowed to access admin panel");
-      }
+      // if (!data?.admin) {
+      //   navigate("/");
+      //   toast.error("Your are not allowed to access admin panel");
+      // }
     },
     onError: (err) => {
       console.log(err);
